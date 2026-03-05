@@ -1,0 +1,16 @@
+C:\Users\luisi\source\repos\cargaExcel\cargaExcel\bin\Debug\net8.0-windows\cargaExcel.exe
+C:\Users\luisi\source\repos\cargaExcel\cargaExcel\bin\Debug\net8.0-windows\cargaExcel.deps.json
+C:\Users\luisi\source\repos\cargaExcel\cargaExcel\bin\Debug\net8.0-windows\cargaExcel.runtimeconfig.json
+C:\Users\luisi\source\repos\cargaExcel\cargaExcel\bin\Debug\net8.0-windows\cargaExcel.dll
+C:\Users\luisi\source\repos\cargaExcel\cargaExcel\bin\Debug\net8.0-windows\cargaExcel.pdb
+C:\Users\luisi\source\repos\cargaExcel\cargaExcel\obj\Debug\net8.0-windows\cargaExcel.Form1.resources
+C:\Users\luisi\source\repos\cargaExcel\cargaExcel\obj\Debug\net8.0-windows\cargaExcel.csproj.GenerateResource.cache
+C:\Users\luisi\source\repos\cargaExcel\cargaExcel\obj\Debug\net8.0-windows\cargaExcel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luisi\source\repos\cargaExcel\cargaExcel\obj\Debug\net8.0-windows\cargaExcel.AssemblyInfoInputs.cache
+C:\Users\luisi\source\repos\cargaExcel\cargaExcel\obj\Debug\net8.0-windows\cargaExcel.AssemblyInfo.cs
+C:\Users\luisi\source\repos\cargaExcel\cargaExcel\obj\Debug\net8.0-windows\cargaExcel.csproj.CoreCompileInputs.cache
+C:\Users\luisi\source\repos\cargaExcel\cargaExcel\obj\Debug\net8.0-windows\cargaExcel.dll
+C:\Users\luisi\source\repos\cargaExcel\cargaExcel\obj\Debug\net8.0-windows\refint\cargaExcel.dll
+C:\Users\luisi\source\repos\cargaExcel\cargaExcel\obj\Debug\net8.0-windows\cargaExcel.pdb
+C:\Users\luisi\source\repos\cargaExcel\cargaExcel\obj\Debug\net8.0-windows\cargaExcel.genruntimeconfig.cache
+C:\Users\luisi\source\repos\cargaExcel\cargaExcel\obj\Debug\net8.0-windows\ref\cargaExcel.dll
