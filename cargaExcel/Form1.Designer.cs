@@ -42,6 +42,7 @@
             btnCargaExcel.TabIndex = 0;
             btnCargaExcel.Text = "Cargar Excel";
             btnCargaExcel.UseVisualStyleBackColor = true;
+            btnCargaExcel.Click += btnCargaExcel_Click;
             // 
             // dgvVentas
             // 
@@ -70,7 +71,6 @@
             Controls.Add(btnCargaExcel);
             Name = "Form1";
             Text = "Form1";
-            Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)dgvVentas).EndInit();
             ResumeLayout(false);
         }

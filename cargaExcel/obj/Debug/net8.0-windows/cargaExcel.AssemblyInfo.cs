@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("cargaExcel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b0b3d216c87fdf01f4f36bcbdfc64c0db1eb4f4")]
 [assembly: System.Reflection.AssemblyProductAttribute("cargaExcel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("cargaExcel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

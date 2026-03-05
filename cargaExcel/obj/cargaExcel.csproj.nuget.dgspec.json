@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\luisi\\source\\repos\\cargaExcel\\cargaExcel\\cargaExcel.csproj": {}
+    "C:\\Users\\luisi\\source\\repos\\cargaExcelC#\\cargaExcel\\cargaExcel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\luisi\\source\\repos\\cargaExcel\\cargaExcel\\cargaExcel.csproj": {
+    "C:\\Users\\luisi\\source\\repos\\cargaExcelC#\\cargaExcel\\cargaExcel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luisi\\source\\repos\\cargaExcel\\cargaExcel\\cargaExcel.csproj",
+        "projectUniqueName": "C:\\Users\\luisi\\source\\repos\\cargaExcelC#\\cargaExcel\\cargaExcel.csproj",
         "projectName": "cargaExcel",
-        "projectPath": "C:\\Users\\luisi\\source\\repos\\cargaExcel\\cargaExcel\\cargaExcel.csproj",
+        "projectPath": "C:\\Users\\luisi\\source\\repos\\cargaExcelC#\\cargaExcel\\cargaExcel.csproj",
         "packagesPath": "C:\\Users\\luisi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luisi\\source\\repos\\cargaExcel\\cargaExcel\\obj\\",
+        "outputPath": "C:\\Users\\luisi\\source\\repos\\cargaExcelC#\\cargaExcel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\luisi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,12 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[8.4.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
