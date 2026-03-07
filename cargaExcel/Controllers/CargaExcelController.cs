@@ -40,12 +40,17 @@ namespace cargaExcel.Controllers
                         continue;
                     }
 
-                    BigInteger numDoc = BigInteger.Parse(hoja.Cells[fila, 2].Text);
-                    if (numDoc == 0
-                    || BigInteger.IsNegative(numDoc)
-                    )
+                    BigInteger numDoc;
+
+                    bool numeroValido = BigInteger.TryParse(
+                        hoja.Cells[fila, 2].Text.Trim(),
+                        out numDoc
+                    );
+
+                    if (!numeroValido || numDoc <= 0)
                     {
-                        errores.Add($"Fila: {fila}, tiene número de docmento inválido");
+                        errores.Add($"Fila {fila}: Número de documento inválido");
+                        continue;
                     }
 
                     string fechaNac = hoja.Cells[fila, 4].Text;

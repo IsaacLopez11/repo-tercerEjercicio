@@ -30,7 +30,7 @@
         {
             btnCargaExcel = new Button();
             dgvVentas = new DataGridView();
-            button1 = new Button();
+            ExportarCSV = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvVentas).BeginInit();
             SuspendLayout();
             // 
@@ -47,26 +47,28 @@
             // dgvVentas
             // 
             dgvVentas.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvVentas.Location = new Point(65, 111);
+            dgvVentas.Location = new Point(95, 130);
             dgvVentas.Name = "dgvVentas";
-            dgvVentas.Size = new Size(326, 192);
+            dgvVentas.Size = new Size(566, 251);
             dgvVentas.TabIndex = 1;
             // 
-            // button1
+            // ExportarCSV
             // 
-            button1.Location = new Point(527, 97);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 2;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            ExportarCSV.Location = new Point(586, 45);
+            ExportarCSV.Name = "ExportarCSV";
+            ExportarCSV.Size = new Size(75, 23);
+            ExportarCSV.TabIndex = 2;
+            ExportarCSV.Tag = "ExportarCSV";
+            ExportarCSV.Text = "Exportar";
+            ExportarCSV.UseVisualStyleBackColor = true;
+            ExportarCSV.Click += button1_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(button1);
+            Controls.Add(ExportarCSV);
             Controls.Add(dgvVentas);
             Controls.Add(btnCargaExcel);
             Name = "Form1";
@@ -79,6 +81,6 @@
 
         private Button btnCargaExcel;
         private DataGridView dgvVentas;
-        private Button button1;
+        private Button ExportarCSV;
     }
 }
