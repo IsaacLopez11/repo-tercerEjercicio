@@ -54,9 +54,9 @@
             // 
             // ExportarCSV
             // 
-            ExportarCSV.Location = new Point(586, 45);
+            ExportarCSV.Location = new Point(562, 35);
             ExportarCSV.Name = "ExportarCSV";
-            ExportarCSV.Size = new Size(75, 23);
+            ExportarCSV.Size = new Size(99, 42);
             ExportarCSV.TabIndex = 2;
             ExportarCSV.Tag = "ExportarCSV";
             ExportarCSV.Text = "Exportar";
