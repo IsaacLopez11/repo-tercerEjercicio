@@ -12,7 +12,7 @@ namespace cargaExcel.Models
         public int Cantidad_Validada { get; set; }	
         public decimal PrecioUnitario { get; set; }	
         public decimal Total_Calculado { get; set; }	
-        public string Estado_Total { get; set; }
+        //public string Estado_Total { get; set; }
        
     }
 }

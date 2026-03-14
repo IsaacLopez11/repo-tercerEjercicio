@@ -11,7 +11,7 @@ namespace cargaExcel.Controllers
                 writer.WriteLine("IdVenta;Fecha_Normalizada;Cliente_Limpio;Ciudad_Limpia;Producto_Limpio;Cantidad_Validada;PrecioUnitario;Total_Calculado;Estado_Total");
                 foreach (var p in parcial)
                 {
-                    writer.WriteLine($"{p.IdVenta};{p.Fecha_Normalizada:yyyy-MM-dd};{p.Cliente_Limpio};{p.Ciudad_Limpia};{p.Producto_Limpio};{p.Cantidad_Validada};{p.PrecioUnitario};{p.Total_Calculado};{p.Estado_Total}");
+                    writer.WriteLine($"{p.IdVenta};{p.Fecha_Normalizada:yyyy-MM-dd};{p.Cliente_Limpio};{p.Ciudad_Limpia};{p.Producto_Limpio};{p.Cantidad_Validada};{p.PrecioUnitario};{p.Total_Calculado}");
                 }
             }
         }

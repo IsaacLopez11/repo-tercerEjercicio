@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Estudiantes\\Documents\\CargaExcel\\cargaExcelC-\\cargaExcel\\cargaExcel.csproj": {}
+    "C:\\Users\\Estudiantes\\Documents\\isaac\\repo-tercerEjercicio\\cargaExcel\\cargaExcel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Estudiantes\\Documents\\CargaExcel\\cargaExcelC-\\cargaExcel\\cargaExcel.csproj": {
+    "C:\\Users\\Estudiantes\\Documents\\isaac\\repo-tercerEjercicio\\cargaExcel\\cargaExcel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Estudiantes\\Documents\\CargaExcel\\cargaExcelC-\\cargaExcel\\cargaExcel.csproj",
+        "projectUniqueName": "C:\\Users\\Estudiantes\\Documents\\isaac\\repo-tercerEjercicio\\cargaExcel\\cargaExcel.csproj",
         "projectName": "cargaExcel",
-        "projectPath": "C:\\Users\\Estudiantes\\Documents\\CargaExcel\\cargaExcelC-\\cargaExcel\\cargaExcel.csproj",
+        "projectPath": "C:\\Users\\Estudiantes\\Documents\\isaac\\repo-tercerEjercicio\\cargaExcel\\cargaExcel.csproj",
         "packagesPath": "C:\\Users\\Estudiantes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Estudiantes\\Documents\\CargaExcel\\cargaExcelC-\\cargaExcel\\obj\\",
+        "outputPath": "C:\\Users\\Estudiantes\\Documents\\isaac\\repo-tercerEjercicio\\cargaExcel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -79,7 +79,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.312/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

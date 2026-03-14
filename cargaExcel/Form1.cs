@@ -1,10 +1,11 @@
+using cargaExcel.Controllers;
+using cargaExcel.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Windows.Forms;
 using System.Windows.Forms.DataVisualization.Charting;
-using cargaExcel.Controllers;
-using cargaExcel.Models;
 
 namespace cargaExcel
 {
@@ -36,7 +37,21 @@ namespace cargaExcel
 
                 parcial = cargarParcialController.ProcesarExcel(ruta);
 
-                dgvVentas.DataSource = parcial;
+
+
+                var resultado = parcial
+                .Where(p =>
+                    //p.Estado_Total == "OK" &&
+                    p.Producto_Limpio != "Sin especificar" &&
+                    p.Cliente_Limpio != "Sin Cliente"
+                )
+                .ToList();
+
+
+                dgvVentas.DataSource = resultado;
+
+                var cantidad = resultado.Count();
+                label3.Text= cantidad.ToString();
 
                 var errores = cargarParcialController.ObtenerErrores();
 
@@ -74,16 +89,19 @@ namespace cargaExcel
             }
         }
 
-        private void btnVentasMes_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
-            var resultado = parcial
-                .GroupBy(v => v.Fecha_Normalizada.Month)
-                .Select(g => new { Mes = g.Key, TotalVentas = g.Sum(v => v.PrecioUnitario) })
-                .ToList();
 
-            dgvVentas.DataSource = resultado;
         }
 
-       
+        private void Form1_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

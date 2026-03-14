@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("cargaExcel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f193fc77f3e7d42e64f85d33d4789b2f10212583")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de61061e73ff54ffa7aabe34eeac1a523106dbc5")]
 [assembly: System.Reflection.AssemblyProductAttribute("cargaExcel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("cargaExcel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

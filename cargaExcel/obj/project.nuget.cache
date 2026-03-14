@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "T6y1tV4IaLw=",
+  "dgSpecHash": "gjYxaGjfj8I=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Estudiantes\\Documents\\CargaExcel\\cargaExcelC-\\cargaExcel\\cargaExcel.csproj",
+  "projectFilePath": "C:\\Users\\Estudiantes\\Documents\\isaac\\repo-tercerEjercicio\\cargaExcel\\cargaExcel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Estudiantes\\.nuget\\packages\\epplus\\8.4.2\\epplus.8.4.2.nupkg.sha512",
     "C:\\Users\\Estudiantes\\.nuget\\packages\\epplus.interfaces\\8.4.0\\epplus.interfaces.8.4.0.nupkg.sha512",
